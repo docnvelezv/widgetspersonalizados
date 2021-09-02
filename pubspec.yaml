@@ -78,3 +78,6 @@ flutter:
     - family: ZCOOL
       fonts:
         - asset: assets/fonts/ZCOOLKuaiLe-Regular.ttf
+
+  assets:
+    - assets/images/micasita.jpg
