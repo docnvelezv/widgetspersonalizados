@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:appflutter/recomendador/estructura.dart';
-import 'package:appflutter/ejemploboton/estructura.dart';
+import 'package:appflutter/ejemplotextfieldyalert/estructura.dart';
 
 void main() {
-  runApp(MaterialApp(home: VistaDinamica()));
+  runApp(MaterialApp(home: VistaInputYAlert()));
 }
