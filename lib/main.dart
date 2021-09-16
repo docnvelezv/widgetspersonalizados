@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:appflutter/ejemplotextfieldyalert/estructura.dart';
+import 'package:appflutter/ejemplotabs/tabs.dart';
 
 void main() {
-  runApp(MaterialApp(home: VistaInputYAlert()));
+  runApp(MaterialApp(home: EjemploTabs()));
 }
