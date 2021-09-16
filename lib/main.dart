@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:appflutter/ejemplotabs/tabs.dart';
+import 'package:appflutter/ejemplotabsinferior/tabs.dart';
 
 void main() {
   runApp(MaterialApp(home: EjemploTabs()));
