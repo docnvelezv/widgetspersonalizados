@@ -1,3 +1,4 @@
+import 'package:appflutter/ejemplodrawer/drawer/CommonDrawer.dart';
 import 'package:flutter/material.dart';
 
 class EstructuraHelp extends StatefulWidget {
@@ -16,6 +17,7 @@ class _EstructuraHelp extends State<EstructuraHelp> {
         appBar: AppBar(
           title: Text("Help"),
         ),
+        drawer: CommonDrawer.obtenerDrawer(context),
         body: Container(
           child: Text("Acá puedes ver información de la aplicación"),
         ));

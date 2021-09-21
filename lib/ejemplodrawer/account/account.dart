@@ -1,3 +1,4 @@
+import 'package:appflutter/ejemplodrawer/drawer/CommonDrawer.dart';
 import 'package:flutter/material.dart';
 
 class EstructuraAccount extends StatefulWidget {
@@ -16,6 +17,7 @@ class _EstructuraAccount extends State<EstructuraAccount> {
         appBar: AppBar(
           title: Text("Account"),
         ),
+        drawer: CommonDrawer.obtenerDrawer(context),
         body: Container(
           child: Text("Acá puedes ver tu perfil"),
         ));

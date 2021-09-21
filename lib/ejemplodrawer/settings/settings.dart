@@ -1,3 +1,4 @@
+import 'package:appflutter/ejemplodrawer/drawer/CommonDrawer.dart';
 import 'package:flutter/material.dart';
 
 class EstructuraSettings extends StatefulWidget {
@@ -16,6 +17,7 @@ class _EstructuraSettings extends State<EstructuraSettings> {
         appBar: AppBar(
           title: Text("Settings"),
         ),
+        drawer: CommonDrawer.obtenerDrawer(context),
         body: Container(
           child: Text("Acá puedes hacer configuraciones"),
         ));
